@@ -117,7 +117,7 @@ struct TileView: View {
                     .foregroundColor(.white)
             }
         }
-        .position(position) // Position changes with animation
+        .position(position)
         .animation(.easeInOut(duration: 0.2), value: position)
     }
 
