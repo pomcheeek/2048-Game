@@ -29,25 +29,25 @@
 
 /* Begin PBXFileReference section */
 		43329A372DA68E43006A12E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		437142062D35D8EE007A2C7E /* NIkolaev_Roman_hw6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIkolaev_Roman_hw6.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		437142162D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIkolaev_Roman_hw6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		437142202D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIkolaev_Roman_hw6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437142062D35D8EE007A2C7E /* 2048-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2048-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437142162D35D8EF007A2C7E /* 2048-GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2048-GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437142202D35D8EF007A2C7E /* 2048-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2048-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		437142082D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */ = {
+		437142082D35D8EE007A2C7E /* 2048-Game */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NIkolaev_Roman_hw6;
+			path = "2048-Game";
 			sourceTree = "<group>";
 		};
-		437142192D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests */ = {
+		437142192D35D8EF007A2C7E /* 2048-GameTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NIkolaev_Roman_hw6Tests;
+			path = "2048-GameTests";
 			sourceTree = "<group>";
 		};
-		437142232D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests */ = {
+		437142232D35D8EF007A2C7E /* 2048-GameUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NIkolaev_Roman_hw6UITests;
+			path = "2048-GameUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -81,9 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				43329A372DA68E43006A12E4 /* README.md */,
-				437142082D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */,
-				437142192D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests */,
-				437142232D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests */,
+				437142082D35D8EE007A2C7E /* 2048-Game */,
+				437142192D35D8EF007A2C7E /* 2048-GameTests */,
+				437142232D35D8EF007A2C7E /* 2048-GameUITests */,
 				437142072D35D8EE007A2C7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 		437142072D35D8EE007A2C7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				437142062D35D8EE007A2C7E /* NIkolaev_Roman_hw6.app */,
-				437142162D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests.xctest */,
-				437142202D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests.xctest */,
+				437142062D35D8EE007A2C7E /* 2048-Game.app */,
+				437142162D35D8EF007A2C7E /* 2048-GameTests.xctest */,
+				437142202D35D8EF007A2C7E /* 2048-GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		437142052D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */ = {
+		437142052D35D8EE007A2C7E /* 2048-Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4371422A2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "NIkolaev_Roman_hw6" */;
+			buildConfigurationList = 4371422A2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "2048-Game" */;
 			buildPhases = (
 				437142022D35D8EE007A2C7E /* Sources */,
 				437142032D35D8EE007A2C7E /* Frameworks */,
@@ -114,18 +114,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				437142082D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */,
+				437142082D35D8EE007A2C7E /* 2048-Game */,
 			);
-			name = NIkolaev_Roman_hw6;
+			name = "2048-Game";
 			packageProductDependencies = (
 			);
 			productName = NIkolaev_Roman_hw6;
-			productReference = 437142062D35D8EE007A2C7E /* NIkolaev_Roman_hw6.app */;
+			productReference = 437142062D35D8EE007A2C7E /* 2048-Game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		437142152D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests */ = {
+		437142152D35D8EF007A2C7E /* 2048-GameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4371422D2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "NIkolaev_Roman_hw6Tests" */;
+			buildConfigurationList = 4371422D2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "2048-GameTests" */;
 			buildPhases = (
 				437142122D35D8EF007A2C7E /* Sources */,
 				437142132D35D8EF007A2C7E /* Frameworks */,
@@ -137,18 +137,18 @@
 				437142182D35D8EF007A2C7E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				437142192D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests */,
+				437142192D35D8EF007A2C7E /* 2048-GameTests */,
 			);
-			name = NIkolaev_Roman_hw6Tests;
+			name = "2048-GameTests";
 			packageProductDependencies = (
 			);
 			productName = NIkolaev_Roman_hw6Tests;
-			productReference = 437142162D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests.xctest */;
+			productReference = 437142162D35D8EF007A2C7E /* 2048-GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4371421F2D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests */ = {
+		4371421F2D35D8EF007A2C7E /* 2048-GameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 437142302D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "NIkolaev_Roman_hw6UITests" */;
+			buildConfigurationList = 437142302D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "2048-GameUITests" */;
 			buildPhases = (
 				4371421C2D35D8EF007A2C7E /* Sources */,
 				4371421D2D35D8EF007A2C7E /* Frameworks */,
@@ -160,13 +160,13 @@
 				437142222D35D8EF007A2C7E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				437142232D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests */,
+				437142232D35D8EF007A2C7E /* 2048-GameUITests */,
 			);
-			name = NIkolaev_Roman_hw6UITests;
+			name = "2048-GameUITests";
 			packageProductDependencies = (
 			);
 			productName = NIkolaev_Roman_hw6UITests;
-			productReference = 437142202D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests.xctest */;
+			productReference = 437142202D35D8EF007A2C7E /* 2048-GameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 437142012D35D8EE007A2C7E /* Build configuration list for PBXProject "NIkolaev_Roman_hw6" */;
+			buildConfigurationList = 437142012D35D8EE007A2C7E /* Build configuration list for PBXProject "2048-Game" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -206,9 +206,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				437142052D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */,
-				437142152D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests */,
-				4371421F2D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests */,
+				437142052D35D8EE007A2C7E /* 2048-Game */,
+				437142152D35D8EF007A2C7E /* 2048-GameTests */,
+				4371421F2D35D8EF007A2C7E /* 2048-GameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,12 +265,12 @@
 /* Begin PBXTargetDependency section */
 		437142182D35D8EF007A2C7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 437142052D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */;
+			target = 437142052D35D8EE007A2C7E /* 2048-Game */;
 			targetProxy = 437142172D35D8EF007A2C7E /* PBXContainerItemProxy */;
 		};
 		437142222D35D8EF007A2C7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 437142052D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */;
+			target = 437142052D35D8EE007A2C7E /* 2048-Game */;
 			targetProxy = 437142212D35D8EF007A2C7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +467,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIkolaev_Roman_hw6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NIkolaev_Roman_hw6";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2048-Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2048-Game";
 			};
 			name = Debug;
 		};
@@ -485,7 +485,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIkolaev_Roman_hw6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NIkolaev_Roman_hw6";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2048-Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2048-Game";
 			};
 			name = Release;
 		};
@@ -524,7 +524,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		437142012D35D8EE007A2C7E /* Build configuration list for PBXProject "NIkolaev_Roman_hw6" */ = {
+		437142012D35D8EE007A2C7E /* Build configuration list for PBXProject "2048-Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				437142282D35D8EF007A2C7E /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4371422A2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "NIkolaev_Roman_hw6" */ = {
+		4371422A2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "2048-Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4371422B2D35D8EF007A2C7E /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4371422D2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "NIkolaev_Roman_hw6Tests" */ = {
+		4371422D2D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "2048-GameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4371422E2D35D8EF007A2C7E /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		437142302D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "NIkolaev_Roman_hw6UITests" */ = {
+		437142302D35D8EF007A2C7E /* Build configuration list for PBXNativeTarget "2048-GameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				437142312D35D8EF007A2C7E /* Debug */,
