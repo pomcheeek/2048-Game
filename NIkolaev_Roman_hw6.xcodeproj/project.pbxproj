@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		43329A382DA68E51006A12E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43329A372DA68E43006A12E4 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		437142172D35D8EF007A2C7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43329A372DA68E43006A12E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		437142062D35D8EE007A2C7E /* NIkolaev_Roman_hw6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIkolaev_Roman_hw6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437142162D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIkolaev_Roman_hw6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		437142202D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIkolaev_Roman_hw6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		437141FD2D35D8EE007A2C7E = {
 			isa = PBXGroup;
 			children = (
+				43329A372DA68E43006A12E4 /* README.md */,
 				437142082D35D8EE007A2C7E /* NIkolaev_Roman_hw6 */,
 				437142192D35D8EF007A2C7E /* NIkolaev_Roman_hw6Tests */,
 				437142232D35D8EF007A2C7E /* NIkolaev_Roman_hw6UITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43329A382DA68E51006A12E4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
